@@ -4,7 +4,7 @@ const app = express();
 const PORT = process.env.PORT || 3000;
 
 app.get('/', (req, res) => {
-  res.send('🚀Oluchi CI/CD Deployment Successful!');
+  res.send('🚀Oluchi CI/CD Deployment Successful! on Wednesday Sept 23rd 2026');
 });
 
 app.listen(PORT, () => {
